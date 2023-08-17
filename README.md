@@ -27,11 +27,12 @@ Simply Add ```<p align="center"><img src="https://git-profile-readme-banner.verc
 🚀 **Pro Tip:**  Add custom text using, username=YourUsername&txt=Hello%20World - This is url encoded so be sure to use %20 instead of spaces. i.e ```hello world``` would be ```hello%20world```
 ## Stylising
 Generate a profile banner with a custom background and fill color:
-URL: https://git-profile-readme-banner.vercel.app/api/python?username=LewisPour&bg=blue&fill=yellow
 <br><br>
-<p align="center"><img src="https://git-profile-readme-banner.vercel.app/api/python?username=LewisPour&bg=blue&fill=yellow"></p>
+<p align="center"><img src="https://git-profile-readme-banner.vercel.app/api/python?username=LewisPour&bg=yellowgreen&fill=black"></p>
 
-Simply Add ```<p align="center"><img src="https://git-profile-readme-banner.vercel.app/api/python?username=LewisPour&bg=blue&fill=yellow"></p>``` to your readme. 
+Simply Add ```<p align="center"><img src="https://git-profile-readme-banner.vercel.app/api/python?username=LewisPour&bg=yellowgreen&fill=black"></p>``` to your readme. 
 <br>
 
 🚀 **Pro Tip:**  You can change the background and fill by using bg and fill paraments.
+
+
