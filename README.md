@@ -1,6 +1,6 @@
 # GitHub Profile Banner README Generator
 ### About
-<p>Want to make your GitHub profile stand out with a dynamic banner? With the GitHub Profile README Banner Generator, you can easily create a visually appealing banner that showcases your username or custom text, ensuring your profile doesn't go unnoticed.</p>
+<p>Want to make your GitHub profile stand out with a dynamic banner? With the GitHub Profile README Banner Generator, you can easily create a visually appealing banner that showcases your username + custom text, ensuring your profile doesn't go unnoticed.</p>
 
 ### Show your support
 If you find it useful, show your support by giving the repo a 🌟!
