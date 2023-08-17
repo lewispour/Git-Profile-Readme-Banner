@@ -68,7 +68,7 @@ def root(
         </style>
         <div>
         <h1>Username cannot contain spaces</h1>
-        <button onclick="window.location ='https://nextjs-fastapi-starter-iota-puce.vercel.app'">Help</button>
+        <button onclick="window.location ='https://git-profile-readme-banner.vercel.app'">Help</button>
         </div>
         """
         return HTMLResponse(content=html, status_code=400)
