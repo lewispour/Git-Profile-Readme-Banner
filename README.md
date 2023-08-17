@@ -10,6 +10,8 @@ Generate a dynamic image for your GitHub Profile README using this FastAPI based
 - `bg` - Background color *(hex or colour name)*
 - `fill` - Text color *(hex or colour name)*
 - `txt` - Set sub heading text.
+- `username` - Enter GITHUB username.
+
 
 ## Default Settings
 Generate a profile banner for your username with default settings:
