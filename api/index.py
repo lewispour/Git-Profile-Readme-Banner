@@ -89,6 +89,7 @@ def root(
     with urlopen(github_url) as response:
         github_data = json.load(response)
     name = github_data["name"]
+    avatar_url = github_data["avatar_url"]
 
 
     colors = [
@@ -246,7 +247,7 @@ def root(
         <title xmlns="http://www.w3.org/2000/svg">Lewis Pour's README</title>
          <desc>GitHub Profile Banner README Generator | Lewis Pour</desc>
          <desc>This API allows you to generate a dynamic image for your GitHub Profile README!</desc>
-        {'<image href="https://github.com/lewispour/Git-Profile-Readme-Banner/blob/7becfc56ae1e283f9cafce7e19ee1877c0662317/blackbackground.png" height="185"/>' if avatar else None}
+        {'<image href="{avatar_url}" height="185"/>' if avatar else None}
         <style>
             * {{
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
