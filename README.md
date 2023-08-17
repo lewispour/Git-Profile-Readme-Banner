@@ -13,7 +13,7 @@ Generate a profile banner for your username with default settings:
 Simply Add ```<p align="center"><img src="https://git-profile-readme-banner.vercel.app/api/python?username=LewisPour"></p>``` to your readme. 
 <br>
 
-🚀 **Pro Tip:**  Be sure to change username=LewisPour to point to your own name, i.e username=elonmusk
+🚀 **Pro Tip:**  Be sure to change ```username=LewisPour``` to point to your GITHUB username, i.e ```username=elonmusk```
 ## Custom Text
 Use custom text for the banner:
 <br>
@@ -24,7 +24,8 @@ Use custom text for the banner:
 Simply Add ```<p align="center"><img src="https://git-profile-readme-banner.vercel.app/api/python?username=LewisPour&txt=Here%20is%20my%20custom%20text"></p>``` to your readme. 
 <br>
 
-🚀 **Pro Tip:**  Add custom text using, username=YourUsername&txt=Hello%20World - This is url encoded so be sure to use %20 instead of spaces. i.e ```hello world``` would be ```hello%20world```
+🚀 **Pro Tip:**  Add custom text using, ```txt=Hello%20World```
+NOTE: This is url encoded so be sure to use %20 instead of spaces. i.e ```Here is my custom text``` would be ```Here%20is%20my%20custom%20text```
 ## Stylising
 Generate a profile banner with a custom background and fill color:
 <br><br>
