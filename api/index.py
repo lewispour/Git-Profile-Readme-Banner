@@ -90,6 +90,7 @@ def root(
         github_data = json.load(response)
     name = github_data["name"]
     avatar_url = github_data["avatar_url"]
+    image_tag = f'<image href="{avatar_url}" height="185"/>' if avatar else None
 
 
     colors = [
@@ -247,7 +248,7 @@ def root(
         <title xmlns="http://www.w3.org/2000/svg">Lewis Pour's README</title>
          <desc>GitHub Profile Banner README Generator | Lewis Pour</desc>
          <desc>This API allows you to generate a dynamic image for your GitHub Profile README!</desc>
-        {'<image href="{avatar_url}" height="185"/>' if avatar else None}
+         {image_tag}
         <style>
             * {{
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
